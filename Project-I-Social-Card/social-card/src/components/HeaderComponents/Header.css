@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header-container{
+    margin: 0 auto;
+    
+    
+}
+.main-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 100px;
+    
+    
+    
+}
+#h4{
+    padding: 4px;
+    margin-left: 5px;
+    color: grey;
+}
+#dot{
+    padding: 5px;
+    /* padding-bottom: 5px; */
+    /* text-align: center; */
+}
+.logo{
+    margin-bottom: -110px;
+    
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -20px;
+}
