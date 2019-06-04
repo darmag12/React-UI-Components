@@ -4,7 +4,7 @@ import './Card.css';
 
 const CardContent = () => {
     return (
-        <div>
+        <div className="card-content">
             <h3>
                 Get started with React
             </h3>

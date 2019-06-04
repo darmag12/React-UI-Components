@@ -1,6 +1,7 @@
 /* All styles for your header Components live here */
 .header-container{
     margin: 0 auto;
+    width: 90%;
     
     
 }
@@ -8,7 +9,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-left: 100px;
+    position: relative;
+    left: 100px;
+    margin-top: 0;
+    
     
     
     
@@ -25,6 +29,9 @@
 }
 .logo{
     margin-bottom: -110px;
+    /* position: relative;
+    top: 100px; */
+    /* bottom: 90px; */
     
 }
 

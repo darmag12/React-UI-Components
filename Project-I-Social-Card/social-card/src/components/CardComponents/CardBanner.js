@@ -1,12 +1,12 @@
 import React from 'react';
 import './Card.css';
-import reactBackground from './img/reactbackground.png';
+import ReactBackground from './Img/reactbackground.png';
 
 
 const BackgroundImg = () => {
     return (
         <div>
-            <img src={reactBackground}/>
+            <img id="react-background-img"src={ReactBackground} alt=""/>
         </div>
     )
 }

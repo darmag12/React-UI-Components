@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './img/lambdacrest.png';
+import ImageLogo from './Img/lambdacrest.png';
 import './Header.css';
 
 export const Logo = () => {
     return (
         
-        <img className="logo" src={logo}/>
+        <img className="logo" src={ImageLogo} alt=""/>
     )
 }
