@@ -1,0 +1,22 @@
+/* footer styling starts here */
+
+.footer{
+    display: flex;
+    position: relative;
+    left: 110px;
+    margin: 15px;
+}
+i{
+    padding: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all .4s;
+    color: grey;
+}
+.footer :nth-child(3):hover{
+    color: red;
+    transform: translatey(3px);
+}
+i:hover{
+    transform: translatey(3px); 
+}
